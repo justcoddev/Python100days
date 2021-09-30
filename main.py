@@ -1,4 +1,3 @@
-miGrupoFav = "The Best"
-thebest = "Aerosmith"
-
-print("mi grupo fav es :", miGrupoFav, thebest)
+#Función input
+resultado = input()
+print(resultado)
