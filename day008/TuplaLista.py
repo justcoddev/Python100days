@@ -7,8 +7,6 @@ for numero in tuplaNumeros:
     if numero < 5:
         print(numero, end = ' ')
         listaNumeros.append(numero)
-
-
 else:
     print("\nFin ciclo for")
 print(f'Números menores que 5 colocados en una lista: {listaNumeros}')
