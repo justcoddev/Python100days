@@ -4,9 +4,21 @@
 # El programa debe solicitar al usuario cuantos alfajores compró un cliente y
 # luego calcular el importe a pagar por el mismo.
 # Tener en cuenta que por cada 12 alfajores se debe calcular una caja, y el excedente se calcula como suelto.
+
 # Por ejemplo: Si la cantidad ingresada son 15 alfajores, el programa
 # calculará: 1 caja y 3 sueltos, es decir $5.- + $0,50 x 3 = $ 6,50.
 # Si cantidad ingresada son 28 alfajores, el programa calculará: 2 cajas y 4 sueltos, es decir
 # $10.- + $0,50 x 4 = $ 12.-.
 # Si cantidad ingresada son 8 alfajores, el programa calculará: 0 cajas y 8 sueltos, es decir
 # $0,50 x 8 = $ 4.-.
+print('Comercio de Alfajores')
+cAlfajoresVendidos = int(input('Ingrese cantidad de alfajores vendidos: '))
+cajaAlfajores = int(cAlfajoresVendidos/12)
+sueltoAlfajor = cAlfajoresVendidos % 12
+cajaValor = cajaAlfajores * 5
+sueltoValor = sueltoAlfajor * 0.50
+total = cajaValor + sueltoValor
+print(f'Tenemos {cAlfajoresVendidos} alfajores\n{cajaAlfajores} cajas a $5 = ${cajaValor}'
+      f'\n{sueltoAlfajor} sueltos a $0.50 = ${sueltoValor}\nTotal: {total}')
+
+
