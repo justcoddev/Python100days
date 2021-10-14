@@ -11,10 +11,17 @@
 # Por ejemplo se ingresan como datos: 70, 40 y 100 para los parciales, 70 para el examen final y 70
 # para el trabajo final. Ese alumno obtiene como nota final: 38,50 + 21 + 10,50 = 70
 print('Calificaciones')
-name = int(input('Nombre del estudiante: '))
+name = input('Nombre del estudiante: ')
 print('Ingrese la nota de los parciales')
 parcial_1 = int(input('Parcial 1: '))
-parcial_1 = int(input('Parcial 2: '))
-parcial_1 = int(input('Parcial 3: '))
+parcial_2 = int(input('Parcial 2: '))
+parcial_3 = int(input('Parcial 3: '))
 examenFinal = int(input('Examen final: '))
 trabajoFinal = int(input('Trabajo Final: '))
+parciales = (parcial_1 + parcial_2 + parcial_3)/3
+
+pParciales = parciales * 0.55
+pExamenFinal = examenFinal * 0.3
+pTrabajoFinal = trabajoFinal * 0.15
+pTotal = pParciales + pExamenFinal + pTrabajoFinal
+print(f'Ese alumno obtiene como nota final: {pParciales} + {pExamenFinal} + {pTrabajoFinal} = {pTotal}')
