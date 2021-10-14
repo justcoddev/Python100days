@@ -24,4 +24,4 @@ pParciales = parciales * 0.55
 pExamenFinal = examenFinal * 0.3
 pTrabajoFinal = trabajoFinal * 0.15
 pTotal = pParciales + pExamenFinal + pTrabajoFinal
-print(f'Ese alumno obtiene como nota final: {pParciales} + {pExamenFinal} + {pTrabajoFinal} = {pTotal}')
+print(f'Ese alumno {name} obtiene como nota final: {pParciales} + {pExamenFinal} + {pTrabajoFinal} = {pTotal}')
