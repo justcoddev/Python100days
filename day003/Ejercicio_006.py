@@ -10,4 +10,11 @@
 # Atención: La nota es en todos los casos un número entre 0 y 100.
 # Por ejemplo se ingresan como datos: 70, 40 y 100 para los parciales, 70 para el examen final y 70
 # para el trabajo final. Ese alumno obtiene como nota final: 38,50 + 21 + 10,50 = 70
-
+print('Calificaciones')
+name = int(input('Nombre del estudiante: '))
+print('Ingrese la nota de los parciales')
+parcial_1 = int(input('Parcial 1: '))
+parcial_1 = int(input('Parcial 2: '))
+parcial_1 = int(input('Parcial 3: '))
+examenFinal = int(input('Examen final: '))
+trabajoFinal = int(input('Trabajo Final: '))
