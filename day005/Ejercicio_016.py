@@ -12,3 +12,18 @@ num_1 = int(input('Ingrese primera nota: '))
 num_2 = int(input('Ingrese segunda nota: '))
 num_3 = int(input('Ingrese tercera nota: '))
 num_4 = int(input('Ingrese cuarta nota: '))
+if (num_1 >= 7 and num_2 >= 7) and (num_3 >= 7 and num_4 >= 7):
+    print(f'PROMOCIONA')
+elif (num_1 >= 4 and num_2 >= 4 and num_3 >= 4 and num_4 != 4) or \
+        (num_1 >= 4 and num_2 >= 4 and num_3 != 4 and num_4 >= 4) or\
+        (num_1 >= 4 and num_2 != 4 and num_3 >= 4 and num_4 >= 4) or \
+        (num_1 != 4 and num_2 >= 4 and num_3 >= 4 and num_4 >= 4) or \
+        (num_1 >= 4 and num_2 >= 4 and num_3 >= 4 and num_4 >= 4):
+    print(f'Rinde examen final')
+elif (num_1 >= 4 and num_2 != 4 and num_3 != 4 and num_4 != 4) or \
+        (num_1 != 4 and num_2 >= 4 and num_3 != 4 and num_4 != 4) or\
+        (num_1 != 4 and num_2 != 4 and num_3 >= 4 and num_4 != 4) or \
+        (num_1 != 4 and num_2 != 4 and num_3 != 4 and num_4 >= 4):
+    print(f'Recupera Parciales')
+else:
+    print(f'Recursa la materia')
