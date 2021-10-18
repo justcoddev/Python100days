@@ -12,3 +12,6 @@
 # $ 0,10 x 100 + $ 0,12 x 25=$ 13
 # Ejemplo 3: Si se ingresa un consumo de 250 kilovatios, entonces el programa calculará:
 # $ 0,10 x 100 + $ 0,12 x 100 + $ 0,15 x 50 = $ 29,50.
+print('#####')
+name = input('Nombre del cliente: ')
+kilovatios = int(input('Ingrese Kilovatios consumidos: '))
