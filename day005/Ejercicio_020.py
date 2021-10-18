@@ -31,4 +31,5 @@ elif kilovatios > 201:
     skilovatiosmod = kilovatios % 200
     skilovatios = skilovatiosmod * 0.15
     total = pkilovatios + skilovatios2 + skilovatios
-    print(f'Su consumo ha sido calculado:\n$0.10 * 100 kilovatios + $0.12 * 100 + $0.15 * {skilovatiosmod} = {total} kilovatios')
+    print(f'Su consumo ha sido calculado:\n$0.10 * 100 kilovatios + $0.12 * 100 + $0.15 * {skilovatiosmod} '
+          f'= {total}kilovatios')
