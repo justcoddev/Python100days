@@ -67,7 +67,6 @@ if destino == 1:
                 print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
             else:
                 print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
-    print(f'gg')
 elif destino == 2:
     if company == 1:
         if servicio == 1:
@@ -108,13 +107,12 @@ elif destino == 2:
             else:
                 print(f'El valo a pagar por el servicio común es de: ${valorComun}')
         elif servicio == 2:
-            valorDiferencial = pasajes * 24
+            valorDiferencial = pasajes * 21.60
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
                 print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
             else:
                 print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
-    print(f'gg')
 elif destino == 3:
     if company == 1:
         print(f'gg')
