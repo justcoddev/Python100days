@@ -16,4 +16,5 @@
 # -	Servicio (1=  común, 2= diferencial )
 #
 # El programa sólo permite ingresar una venta por vez y calcula y emite el importe neto a pagar.
-#
+print('#######')
+destino = input('Número d destino: ')
