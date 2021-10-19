@@ -19,8 +19,32 @@ peso = int(input('Ingrese peso: '))
 equis = (estatura - peso) / 100
 
 if edad <= 20:
-    if 0.90 < equis < 1.10:
-
-        print('ff')
+    if 0.90 < equis <= 1.10:
+        print(f'Como la edad es {edad} años, X = {equis} el Peso Normal.')
+    elif equis > 1.10:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Bajo Peso.')
+    elif equis < 0.90:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Peso Excedido.')
+elif 20 < edad >= 30:
+    if 0.85 < equis <= 1.15:
+        print(f'Como la edad es {edad} años, X = {equis} el Peso Normal.')
+    elif equis > 1.15:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Bajo Peso.')
+    elif equis < 0.85:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Peso Excedido.')
+elif 30 < edad >= 40:
+    if 0.80 < equis <= 1.10:
+        print(f'Como la edad es {edad} años, X = {equis} el Peso Normal.')
+    elif equis > 1.10:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Bajo Peso.')
+    elif equis < 0.80:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Peso Excedido.')
+elif edad > 40:
+    if 0.75 < equis <= 1.10:
+        print(f'Como la edad es {edad} años, X = {equis} el Peso Normal.')
+    elif equis > 1.10:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Bajo Peso.')
+    elif equis < 0.75:
+        print(f'Como la edad es {edad} años, X = {equis} tiene Peso Excedido.')
 else:
-    print('gg')
+    print('Error')
