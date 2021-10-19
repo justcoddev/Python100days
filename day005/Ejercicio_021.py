@@ -17,16 +17,26 @@
 #
 # El programa sólo permite ingresar una venta por vez y calcula y emite el importe neto a pagar.
 print('#######')
-destino = input('Número d destino(1, 2, 3): ')
-company = input('Ingrese compañía(1, 2, 3): ')
-pasajes = input('Ingrese cantidad de pasajes: ')
-servicio = input('Servicio\n1 = Común\n2 = Diferencial\n: ')
+destino = int(input('Número d destino(1, 2, 3): '))
+company = int(input('Ingrese compañía(1, 2, 3): '))
+servicio = int(input('Servicio: \n1 = Común\n2 = Diferencial\n: '))
+pasajes = int(input('Ingrese cantidad de pasajes: '))
 if destino == 1:
     if company == 1:
         if servicio == 1:
             valorComun = pasajes * 20
+            if pasajes >= 5:
+                descuentoComun = valorComun - (valorComun * 0.15)
+                print(f'El valo a pagar por el servicio común es de: ${descuentoComun}')
+            else:
+                print(f'El valo a pagar por el servicio común es de: ${valorComun}')
         elif servicio == 2:
             valorDiferencial = pasajes * 24
+            if pasajes >= 5:
+                descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
+                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+            else:
+                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
 
         print(f'gg')
     elif company == 2:
