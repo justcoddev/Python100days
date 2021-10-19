@@ -20,9 +20,16 @@ print('#######')
 destino = input('Número d destino(1, 2, 3): ')
 company = input('Ingrese compañía(1, 2, 3): ')
 pasajes = input('Ingrese cantidad de pasajes: ')
-
+servicio = input('Servicio\n1 = Común\n2 = Diferencial\n: ')
 if destino == 1:
-
+    if company == 1:
+        print(f'gg')
+    elif company == 2:
+        print(f'gg')
+    elif company == 3:
+        print(f'gg')
     print(f'gg')
 elif destino == 2:
+    print(f'gg')
+elif destino == 3:
     print(f'gg')
