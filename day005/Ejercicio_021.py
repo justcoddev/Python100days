@@ -30,6 +30,12 @@ if destino == 1:
         print(f'gg')
     print(f'gg')
 elif destino == 2:
+    if company == 1:
+        print(f'gg')
+    elif company == 2:
+        print(f'gg')
+    elif company == 3:
+        print(f'gg')
     print(f'gg')
 elif destino == 3:
     print(f'gg')
