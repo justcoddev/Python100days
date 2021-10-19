@@ -12,3 +12,15 @@
 # peso (en Kg) y edad (en años), informe si la persona tiene un peso normal, bajo o excedido.
 # Por ejemplo si se ingresa Estatura: 180 cm, Peso: 70 kg, Edad: 28, se calculará:
 # 180 – 70=110 / 100 = 1,1. Como la edad está entre 20 y 30, X = 1,1 es Peso Normal.
+print('####')
+edad = int(input('Ingrese la edad: '))
+estatura = int(input('Ingrese estatura: '))
+peso = int(input('Ingrese peso: '))
+equis = (estatura - peso) / 100
+
+if edad <= 20:
+    if 0.90 < equis < 1.10:
+
+        print('ff')
+else:
+    print('gg')
