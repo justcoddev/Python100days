@@ -34,9 +34,9 @@ if destino == 1:
             valorDiferencial = pasajes * 24
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
     elif company == 2:
         if servicio == 1:
             valorComun = pasajes * 22
@@ -49,9 +49,9 @@ if destino == 1:
             valorDiferencial = pasajes * 26.40
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
     elif company == 3:
         if servicio == 1:
             valorComun = pasajes * 24
@@ -64,9 +64,9 @@ if destino == 1:
             valorDiferencial = pasajes * 28.8
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
 elif destino == 2:
     if company == 1:
         if servicio == 1:
@@ -80,9 +80,9 @@ elif destino == 2:
             valorDiferencial = pasajes * 18
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
     elif company == 2:
         if servicio == 1:
             valorComun = pasajes * 16.50
@@ -95,9 +95,9 @@ elif destino == 2:
             valorDiferencial = pasajes * 19.80
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
     elif company == 3:
         if servicio == 1:
             valorComun = pasajes * 18
@@ -110,9 +110,9 @@ elif destino == 2:
             valorDiferencial = pasajes * 21.60
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
 elif destino == 3:
     if company == 1:
         if servicio == 1:
@@ -126,9 +126,9 @@ elif destino == 3:
             valorDiferencial = pasajes * 36
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
     elif company == 2:
         if servicio == 1:
             valorComun = pasajes * 33
@@ -141,9 +141,9 @@ elif destino == 3:
             valorDiferencial = pasajes * 39.60
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
     elif company == 3:
         if servicio == 1:
             valorComun = pasajes * 36
@@ -156,7 +156,8 @@ elif destino == 3:
             valorDiferencial = pasajes * 43.20
             if pasajes >= 5:
                 descuentoDiferencial = valorDiferencial - (valorDiferencial * 0.15)
-                print(f'El valo a pagar por el servicio común es de: ${descuentoDiferencial}')
+                print(f'El valo a pagar por el servicio diferencial es de: ${descuentoDiferencial}')
             else:
-                print(f'El valo a pagar por el servicio común es de: ${valorDiferencial}')
-    print(f'gg')
+                print(f'El valo a pagar por el servicio diferencial es de: ${valorDiferencial}')
+else:
+    print('Error')
