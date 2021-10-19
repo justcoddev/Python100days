@@ -19,6 +19,7 @@
 print('#######')
 destino = input('Número d destino(1, 2, 3): ')
 company = input('Ingrese compañía(1, 2, 3): ')
+pasajes = input('Ingrese cantidad de pasajes: ')
 
 if destino == 1:
 
