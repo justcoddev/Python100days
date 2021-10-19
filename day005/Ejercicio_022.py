@@ -25,14 +25,14 @@ if edad <= 20:
         print(f'Como la edad es {edad} años, X = {equis} tiene Bajo Peso.')
     elif equis < 0.90:
         print(f'Como la edad es {edad} años, X = {equis} tiene Peso Excedido.')
-elif 20 < edad >= 30:
+elif 20 < edad <= 30:
     if 0.85 < equis <= 1.15:
         print(f'Como la edad es {edad} años, X = {equis} el Peso Normal.')
     elif equis > 1.15:
         print(f'Como la edad es {edad} años, X = {equis} tiene Bajo Peso.')
     elif equis < 0.85:
         print(f'Como la edad es {edad} años, X = {equis} tiene Peso Excedido.')
-elif 30 < edad >= 40:
+elif 30 < edad <= 40:
     if 0.80 < equis <= 1.10:
         print(f'Como la edad es {edad} años, X = {equis} el Peso Normal.')
     elif equis > 1.10:
