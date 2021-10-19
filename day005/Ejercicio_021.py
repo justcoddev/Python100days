@@ -17,8 +17,11 @@
 #
 # El programa sólo permite ingresar una venta por vez y calcula y emite el importe neto a pagar.
 print('#######')
-destino = input('Número d destino: ')
+destino = input('Número d destino(1, 2, 3): ')
+company = input('Ingrese compañía(1, 2, 3): ')
+
 if destino == 1:
+
     print(f'gg')
 elif destino == 2:
     print(f'gg')
