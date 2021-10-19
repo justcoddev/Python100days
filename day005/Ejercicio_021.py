@@ -23,6 +23,11 @@ pasajes = input('Ingrese cantidad de pasajes: ')
 servicio = input('Servicio\n1 = Común\n2 = Diferencial\n: ')
 if destino == 1:
     if company == 1:
+        if servicio == 1:
+            valorComun = pasajes * 20
+        elif servicio == 2:
+            valorDiferencial = pasajes * 24
+
         print(f'gg')
     elif company == 2:
         print(f'gg')
