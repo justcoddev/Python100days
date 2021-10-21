@@ -2,3 +2,13 @@
 # 	a) La edad promedio de las 50 personas.
 # 	b) La edad promedio de las personas con altura entre 1,60 mts. y 1,80 mts. inclusive.
 # 	c) Cantidad de personas con altura mayor a 1,70 mts.
+print('####')
+altura = int(input('Escriba la altura: '))
+
+for contador in range(4):
+    edad = int(input('Escriba la edad: '))
+    edad += edad
+    continue
+    print(f'promedio: {edad}')
+else:
+    print(f'fin ciclo for')
