@@ -7,7 +7,7 @@ acumulador = 0
 acumulador2 = 0
 contador = 0
 contador2 = 0
-for i in range(4): # cambiar a 50
+for i in range(4):  # cambiar a 50
     edad = int(input('Escriba la edad '+str(i+1)+': '))
     altura = float(input('Escriba la altura (en metros): '))
     acumulador += edad
