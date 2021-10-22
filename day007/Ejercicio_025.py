@@ -9,7 +9,7 @@ apr = 0
 apl = 0
 pro = 0
 for i in range(5):
-    nota = int(input('Ingrese nota '+str(i)+':'))
+    nota = int(input('Ingrese nota '+str(i+1)+':'))
     if nota >= 4:
         apr += 1
     elif nota <= 3:
