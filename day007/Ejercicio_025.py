@@ -12,10 +12,10 @@ for i in range(5):
     nota = int(input('Ingrese nota '+str(i+1)+': '))
     if nota >= 4:
         apr += 1
+        if nota >= 9:
+            pro += 1
     elif nota <= 3:
         apl += 1
-    elif nota >= 9:
-        pro += 1
 print(f'Aprobados: {apr}')
 print(f'Aplazados: {apl}')
 print(f'Promocionados: {pro}')
