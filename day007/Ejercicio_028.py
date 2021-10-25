@@ -8,4 +8,5 @@
 # Se pide determinar e informar:
 #
 # a) Para cada equipo su número y total de partidos perdidos, empatados y ganados.
-# b) El nombre del equipo que ganó más partidos. Si hay varios con la misma cantidad de partidos ganados, entonces informar el primero que se haya detectado con esa cantidad.
+# b) El nombre del equipo que ganó más partidos. Si hay varios con la misma cantidad de partidos ganados,
+# entonces informar el primero que se haya detectado con esa cantidad.
