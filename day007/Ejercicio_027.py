@@ -8,7 +8,7 @@
 # a) Cual es el nombre del empleado con mayor sueldo y cual es su antigüedad.
 # b) Informar la antigüedad promedio de los empleados con sueldo mayor a $500.-
 
-for i in 30:
+for i in range(30):
     nombre = input('Ingrse nombre del Empleado: ')
     sueldo = float(input('Ingrese sueldo del empleado: '))
     antiguedad = int(input('Ingrese antiguedad del empleado: '))
