@@ -12,3 +12,4 @@
 # entonces informar el primero que se haya detectado con esa cantidad.
 numero = int(input('Número del equipo(1 a 20): '))
 nombre = input('Nombre del equipo: ')
+codigo = int(input('Código del equipo: '))
