@@ -10,6 +10,7 @@
 # a) Para cada equipo su número y total de partidos perdidos, empatados y ganados.
 # b) El nombre del equipo que ganó más partidos. Si hay varios con la misma cantidad de partidos ganados,
 # entonces informar el primero que se haya detectado con esa cantidad.
-numero = int(input('Número del equipo(1 a 20): '))
-nombre = input('Nombre del equipo: ')
-codigo = int(input('Código del equipo:( 1: perdido, 2: empatado, 3: ganado: '))
+for i in range(20):
+    numero = int(input('Número del equipo(1 a 20): '))
+    nombre = input('Nombre del equipo: ')
+    codigo = int(input('Código del equipo:( 1: perdido, 2: empatado, 3: ganado: '))
